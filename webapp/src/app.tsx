@@ -2713,7 +2713,7 @@ export class ProjectView
                         method: "GET",
                         responseArrayBuffer: true
                     }).then(resp => this.importUri(url, resp.buffer))
-                        .catch(e => core.handleNetworkError(e));
+                        .catch((e: any): void => core.handleNetworkError(e));
                 }
             },
             priority: 0
@@ -3211,7 +3211,7 @@ export class ProjectView
                         })
                 }
             })
-            .catch(e => {
+            .catch((e: any): any => {
                 core.warningNotification(lf("Please check your internet connection and check the example is valid."));
                 pxt.reportException(e);
                 return Promise.reject(e);
