@@ -1,0 +1,17 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.ARGUMENT_EDITOR_CUSTOM_BLOCK_TYPE = exports.ARGUMENT_EDITOR_ARRAY_BLOCK_TYPE = exports.ARGUMENT_EDITOR_STRING_BLOCK_TYPE = exports.ARGUMENT_EDITOR_NUMBER_BLOCK_TYPE = exports.ARGUMENT_EDITOR_BOOLEAN_BLOCK_TYPE = exports.ARGUMENT_REPORTER_CUSTOM_BLOCK_TYPE = exports.ARGUMENT_REPORTER_ARRAY_BLOCK_TYPE = exports.ARGUMENT_REPORTER_STRING_BLOCK_TYPE = exports.ARGUMENT_REPORTER_NUMBER_BLOCK_TYPE = exports.ARGUMENT_REPORTER_BOOLEAN_BLOCK_TYPE = exports.FUNCTION_CALL_OUTPUT_BLOCK_TYPE = exports.FUNCTION_CALL_BLOCK_TYPE = exports.FUNCTION_DECLARATION_BLOCK_TYPE = exports.FUNCTION_DEFINITION_BLOCK_TYPE = void 0;
+exports.FUNCTION_DEFINITION_BLOCK_TYPE = "function_definition";
+exports.FUNCTION_DECLARATION_BLOCK_TYPE = "function_declaration";
+exports.FUNCTION_CALL_BLOCK_TYPE = "function_call";
+exports.FUNCTION_CALL_OUTPUT_BLOCK_TYPE = "function_call_output";
+exports.ARGUMENT_REPORTER_BOOLEAN_BLOCK_TYPE = "argument_reporter_boolean";
+exports.ARGUMENT_REPORTER_NUMBER_BLOCK_TYPE = "argument_reporter_number";
+exports.ARGUMENT_REPORTER_STRING_BLOCK_TYPE = "argument_reporter_string";
+exports.ARGUMENT_REPORTER_ARRAY_BLOCK_TYPE = "argument_reporter_array";
+exports.ARGUMENT_REPORTER_CUSTOM_BLOCK_TYPE = "argument_reporter_custom";
+exports.ARGUMENT_EDITOR_BOOLEAN_BLOCK_TYPE = "argument_editor_boolean";
+exports.ARGUMENT_EDITOR_NUMBER_BLOCK_TYPE = "argument_editor_number";
+exports.ARGUMENT_EDITOR_STRING_BLOCK_TYPE = "argument_editor_string";
+exports.ARGUMENT_EDITOR_ARRAY_BLOCK_TYPE = "argument_editor_array";
+exports.ARGUMENT_EDITOR_CUSTOM_BLOCK_TYPE = "argument_editor_custom";

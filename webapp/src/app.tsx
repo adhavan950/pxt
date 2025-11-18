@@ -1867,7 +1867,7 @@ export class ProjectView
             }
 
             /* await */ pkg.mainPkg.getCompileOptionsAsync()
-                .catch(e => {
+                .catch((e: any): void => {
                     if (e instanceof pxt.cpp.PkgConflictError) {
                         const confl = e as pxt.cpp.PkgConflictError
                         const remove = (lib: pxt.Package) => ({
@@ -2384,7 +2384,7 @@ export class ProjectView
                     let data = parsedContents as pxt.cpp.HexFile;
                     this.importHex(data, options);
                 }
-            }).catch(e => {
+            }).catch((e: any): void => {
                 core.warningNotification(lf("Sorry, we could not import this project or block snippet."))
                 this.openHome();
             });

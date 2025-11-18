@@ -29,7 +29,17 @@
         "incremental": false,
         "skipLibCheck": true
     },
+    "include": [
+        "src/**/*",
+        "public/**/*",
+        "../react-common/**/*",
+        "../pxtblocks/**/*",
+        "../pxteditor/**/*",
+        "../pxtlib/**/*",
+        "../pxtsim/**/*"
+    ],
     "exclude": [
-        "node_modules"
+        "node_modules",
+        "../built"
     ]
 }
